@@ -197,10 +197,10 @@ img {
     overflow: hidden;
 }
 
-.description-list_item {
+.description_list_item {
     display: flex;
     flex-direction: column;
-    flex-basis: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .description_section {
