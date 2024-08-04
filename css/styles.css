@@ -197,6 +197,11 @@ img {
     overflow: hidden;
 }
 
+.description-list_item {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc((100% - 72px) / 4);
+}
 
 .description_section {
     justify-content: space-between;
@@ -229,7 +234,7 @@ img {
 /* Our Team */
 .our_team {
     background: #f4f4fd;
-    padding: 24px;
+    padding: 120px 0 120px;
 }
 
 .our_team_list {
@@ -305,13 +310,6 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     margin-bottom: 72px;
-}
-
-.our_team_list {
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
 }
 
 .our_portfolio_list {
